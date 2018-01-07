@@ -20,7 +20,7 @@ You should create one R script called run_analysis.R that does the following.
     4. Appropriately labels the data set with descriptive variable names.
     5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## How to read
+## How to
 
 In this case, these are the principal files:
     
@@ -35,3 +35,31 @@ In this case, these are the principal files:
 
 4. tidy_data_set.txt
 > Tidy dataset that contains the final result of cleaning data.
+
+## Version
+
+\>sessionInfo()
+R version 3.4.3 (2017-11-30)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 17.10
+
+Matrix products: default
+BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
+
+locale:
+ [1] LC_CTYPE=es_ES.UTF-8       LC_NUMERIC=C               LC_TIME=es_ES.UTF-8       
+ [4] LC_COLLATE=es_ES.UTF-8     LC_MONETARY=es_ES.UTF-8    LC_MESSAGES=es_ES.UTF-8   
+ [7] LC_PAPER=es_ES.UTF-8       LC_NAME=C                  LC_ADDRESS=C              
+[10] LC_TELEPHONE=C             LC_MEASUREMENT=es_ES.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] dplyr_0.7.4
+
+loaded via a namespace (and not attached):
+ [1] compiler_3.4.3   magrittr_1.5     assertthat_0.2.0 R6_2.2.2         tools_3.4.3      pillar_1.0.1    
+ [7] bindrcpp_0.2     glue_1.2.0       tibble_1.4.1     yaml_2.1.16      Rcpp_0.12.14     pkgconfig_2.0.1 
+[13] rlang_0.1.6      bindr_0.1       
