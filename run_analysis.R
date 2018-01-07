@@ -126,6 +126,6 @@ tidyDataSet <- targetData %>%
     summarise_all(funs(mean))
 
 # output to file "tidy_data_set.txt"
-write.table(tidyDataSet, "tidy_data_set.txt", row.names = TRUE, 
+write.table(tidyDataSet, "tidy_data_set.txt", row.names = FALSE, 
             quote = FALSE)
 
