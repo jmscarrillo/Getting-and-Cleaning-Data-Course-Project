@@ -22,7 +22,7 @@ You should create one R script called run_analysis.R that does the following.
 
 ## How to read
 
-In this case, this are the principal files:
+In this case, these are the principal files:
     
 1. run_analysis.R
 > R program which contains all instructions to create the tidy dataset.
